@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		83C1E79A28EC1F080059B095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E79928EC1F080059B095 /* AppDelegate.swift */; };
 		83C1E79C28EC1F080059B095 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E79B28EC1F080059B095 /* SceneDelegate.swift */; };
-		83C1E79E28EC1F080059B095 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E79D28EC1F080059B095 /* ViewController.swift */; };
-		83C1E7A128EC1F080059B095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C1E79F28EC1F080059B095 /* Main.storyboard */; };
+		83C1E79E28EC1F080059B095 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E79D28EC1F080059B095 /* MovieViewController.swift */; };
 		83C1E7A328EC1F090059B095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C1E7A228EC1F090059B095 /* Assets.xcassets */; };
 		83C1E7A628EC1F090059B095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C1E7A428EC1F090059B095 /* LaunchScreen.storyboard */; };
+		83C1E7B228EC226E0059B095 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E7B128EC226E0059B095 /* MovieCollectionViewCell.swift */; };
+		83C1E7B428EC236F0059B095 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E7B328EC236F0059B095 /* Movie.swift */; };
+		83C1E7B628EC26A90059B095 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E7B528EC26A90059B095 /* MovieViewModel.swift */; };
+		83C1E7B928EC26E40059B095 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E7B828EC26E40059B095 /* APICaller.swift */; };
+		83C1E7BD28ED16850059B095 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E7BC28ED16850059B095 /* MovieListViewController.swift */; };
+		83C1E7C128ED17250059B095 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E7C028ED17250059B095 /* MovieTableViewCell.swift */; };
+		83C1E7C328ED18BE0059B095 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E7C228ED18BE0059B095 /* MainTabBarController.swift */; };
+		83C1E7C528ED19F00059B095 /* MoviePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1E7C428ED19F00059B095 /* MoviePreviewViewController.swift */; };
+		83E5FBD128EEB39400B46575 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5FBD028EEB39400B46575 /* CellViewModel.swift */; };
+		8E1A616C853EF6B96F66B1AE /* Pods_RenzoRoov.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215E184F5B5AC4A8C19341E7 /* Pods_RenzoRoov.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		215E184F5B5AC4A8C19341E7 /* Pods_RenzoRoov.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RenzoRoov.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5B6C714DE1DB0CC8854FA0 /* Pods-RenzoRoov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenzoRoov.release.xcconfig"; path = "Target Support Files/Pods-RenzoRoov/Pods-RenzoRoov.release.xcconfig"; sourceTree = "<group>"; };
+		6DF2E88D5B48C5BDC6D0BA61 /* Pods-RenzoRoov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenzoRoov.debug.xcconfig"; path = "Target Support Files/Pods-RenzoRoov/Pods-RenzoRoov.debug.xcconfig"; sourceTree = "<group>"; };
 		83C1E79628EC1F080059B095 /* RenzoRoov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenzoRoov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C1E79928EC1F080059B095 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83C1E79B28EC1F080059B095 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83C1E79D28EC1F080059B095 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83C1E7A028EC1F080059B095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83C1E79D28EC1F080059B095 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		83C1E7A228EC1F090059B095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83C1E7A528EC1F090059B095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83C1E7A728EC1F090059B095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C1E7B128EC226E0059B095 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		83C1E7B328EC236F0059B095 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		83C1E7B528EC26A90059B095 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		83C1E7B828EC26E40059B095 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		83C1E7BC28ED16850059B095 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		83C1E7C028ED17250059B095 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		83C1E7C228ED18BE0059B095 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		83C1E7C428ED19F00059B095 /* MoviePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewViewController.swift; sourceTree = "<group>"; };
+		83E5FBD028EEB39400B46575 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1A616C853EF6B96F66B1AE /* Pods_RenzoRoov.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		727ECF315050A776F3DAFE9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF2E88D5B48C5BDC6D0BA61 /* Pods-RenzoRoov.debug.xcconfig */,
+				2C5B6C714DE1DB0CC8854FA0 /* Pods-RenzoRoov.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7740A0D3EE0E4156B2737960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				215E184F5B5AC4A8C19341E7 /* Pods_RenzoRoov.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83C1E78D28EC1F080059B095 = {
 			isa = PBXGroup;
 			children = (
 				83C1E79828EC1F080059B095 /* RenzoRoov */,
 				83C1E79728EC1F080059B095 /* Products */,
+				727ECF315050A776F3DAFE9A /* Pods */,
+				7740A0D3EE0E4156B2737960 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,79 @@
 		83C1E79828EC1F080059B095 /* RenzoRoov */ = {
 			isa = PBXGroup;
 			children = (
-				83C1E79928EC1F080059B095 /* AppDelegate.swift */,
-				83C1E79B28EC1F080059B095 /* SceneDelegate.swift */,
-				83C1E79D28EC1F080059B095 /* ViewController.swift */,
-				83C1E79F28EC1F080059B095 /* Main.storyboard */,
+				83C1E7AE28EC1FEB0059B095 /* Model */,
+				83C1E7B028EC1FF00059B095 /* View */,
+				83C1E7AF28EC1FED0059B095 /* ViewModel */,
+				83C1E7B728EC26D20059B095 /* Network */,
+				83C1E7AD28EC1FE00059B095 /* Base */,
 				83C1E7A228EC1F090059B095 /* Assets.xcassets */,
 				83C1E7A428EC1F090059B095 /* LaunchScreen.storyboard */,
 				83C1E7A728EC1F090059B095 /* Info.plist */,
 			);
 			path = RenzoRoov;
+			sourceTree = "<group>";
+		};
+		83C1E7AD28EC1FE00059B095 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				83C1E79928EC1F080059B095 /* AppDelegate.swift */,
+				83C1E79B28EC1F080059B095 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		83C1E7AE28EC1FEB0059B095 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83C1E7B328EC236F0059B095 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83C1E7AF28EC1FED0059B095 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				83C1E7B528EC26A90059B095 /* MovieViewModel.swift */,
+				83E5FBD028EEB39400B46575 /* CellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		83C1E7B028EC1FF00059B095 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83C1E7C228ED18BE0059B095 /* MainTabBarController.swift */,
+				83C1E7C428ED19F00059B095 /* MoviePreviewViewController.swift */,
+				83E5FBCE28EEAD3D00B46575 /* Home */,
+				83E5FBCF28EEAD5900B46575 /* List */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83C1E7B728EC26D20059B095 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				83C1E7B828EC26E40059B095 /* APICaller.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		83E5FBCE28EEAD3D00B46575 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83C1E79D28EC1F080059B095 /* MovieViewController.swift */,
+				83C1E7B128EC226E0059B095 /* MovieCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83E5FBCF28EEAD5900B46575 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				83C1E7BC28ED16850059B095 /* MovieListViewController.swift */,
+				83C1E7C028ED17250059B095 /* MovieTableViewCell.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83C1E7AA28EC1F090059B095 /* Build configuration list for PBXNativeTarget "RenzoRoov" */;
 			buildPhases = (
+				91928DF6844A497C3DD8DBCF /* [CP] Check Pods Manifest.lock */,
 				83C1E79228EC1F080059B095 /* Sources */,
 				83C1E79328EC1F080059B095 /* Frameworks */,
 				83C1E79428EC1F080059B095 /* Resources */,
+				E7A2147AD2930D757B634BB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +209,7 @@
 				};
 			};
 			buildConfigurationList = 83C1E79128EC1F080059B095 /* Build configuration list for PBXProject "RenzoRoov" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,34 +233,76 @@
 			files = (
 				83C1E7A628EC1F090059B095 /* LaunchScreen.storyboard in Resources */,
 				83C1E7A328EC1F090059B095 /* Assets.xcassets in Resources */,
-				83C1E7A128EC1F080059B095 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91928DF6844A497C3DD8DBCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RenzoRoov-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A2147AD2930D757B634BB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RenzoRoov/Pods-RenzoRoov-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RenzoRoov/Pods-RenzoRoov-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RenzoRoov/Pods-RenzoRoov-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83C1E79228EC1F080059B095 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C1E79E28EC1F080059B095 /* ViewController.swift in Sources */,
+				83C1E7C528ED19F00059B095 /* MoviePreviewViewController.swift in Sources */,
+				83C1E79E28EC1F080059B095 /* MovieViewController.swift in Sources */,
 				83C1E79A28EC1F080059B095 /* AppDelegate.swift in Sources */,
+				83C1E7C328ED18BE0059B095 /* MainTabBarController.swift in Sources */,
+				83C1E7C128ED17250059B095 /* MovieTableViewCell.swift in Sources */,
 				83C1E79C28EC1F080059B095 /* SceneDelegate.swift in Sources */,
+				83C1E7BD28ED16850059B095 /* MovieListViewController.swift in Sources */,
+				83C1E7B928EC26E40059B095 /* APICaller.swift in Sources */,
+				83C1E7B228EC226E0059B095 /* MovieCollectionViewCell.swift in Sources */,
+				83C1E7B428EC236F0059B095 /* Movie.swift in Sources */,
+				83E5FBD128EEB39400B46575 /* CellViewModel.swift in Sources */,
+				83C1E7B628EC26A90059B095 /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83C1E79F28EC1F080059B095 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83C1E7A028EC1F080059B095 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		83C1E7A428EC1F090059B095 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +430,7 @@
 		};
 		83C1E7AB28EC1F090059B095 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF2E88D5B48C5BDC6D0BA61 /* Pods-RenzoRoov.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +441,7 @@
 				INFOPLIST_FILE = RenzoRoov/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,14 +451,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.renzoalvaroshan.RenzoRoov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		83C1E7AC28EC1F090059B095 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5B6C714DE1DB0CC8854FA0 /* Pods-RenzoRoov.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +473,7 @@
 				INFOPLIST_FILE = RenzoRoov/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,9 +483,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.renzoalvaroshan.RenzoRoov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
